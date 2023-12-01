@@ -15,7 +15,9 @@
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
       </label>
-      <img src="https://static.wikia.nocookie.net/smosh/images/d/df/Pok%C3%A9mon.png/revision/latest/thumbnail/width/360/height/360?cb=20170821033324" class="logo">
+      <label 
+            <img src="https://static.wikia.nocookie.net/smosh/images/d/df/Pok%C3%A9mon.png/revision/latest/thumbnail/width/360/height/360?cb=20170821033324" class="logo"> 
+      </label>
       <label class="logo">Gen I</label>
       <ul>
         <li><a class="active" href="/">Home</a></li>
