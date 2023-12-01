@@ -22,4 +22,7 @@
 
 .navbar li{
   float: left;
+  display: inline-block;
+  line-height: 70px;
+  margin: 0 5px;
 }
