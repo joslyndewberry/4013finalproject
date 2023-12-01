@@ -6,25 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?=$pageTitle?></title>
     <link rel="stylesheet" href="headerstyle.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   </head>
 
   <body>
-    <nav>
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <label 
-            <img src="https://static.wikia.nocookie.net/smosh/images/d/df/Pok%C3%A9mon.png/revision/latest/thumbnail/width/360/height/360?cb=20170821033324" class="logo"> 
-      </label>
-      <label class="logo">Gen I</label>
-      <ul>
-        <li><a class="active" href="/">Home</a></li>
-        <li><a href="trainer.php">Trainesr</a></li>
-        <li><a href="pokemon.php">Pokemon</a></li>
-        <li><a href="types.php">Types</a></li>
-        <li><a href="stats.php">Stats</a></li>
-      </ul>
-    </nav>
+        <nav class="navbar">
+              <ul>
+                    <li>
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li>
+                          <a href="trainer.php">Trainer</a>
+                    </li>
+                    <li>
+                          <a href="pokemon.php">Pokemon</a>
+                    </li>
+                    <li>
+                          <a href="types.php">Types</a>
+                    </li>
+                    <li>
+                          <a href="stats.php">Stats</a>
+                    </li>
+              </ul>      
+        </nav>
 
