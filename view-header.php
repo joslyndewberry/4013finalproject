@@ -66,5 +66,4 @@
         <li><a href="#">Feedback</a></li>
       </ul>
     </nav>
-    <section></section>
 
