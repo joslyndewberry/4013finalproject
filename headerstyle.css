@@ -1,4 +1,4 @@
-.topnav {
+.navbar navbar-expand-lg bg-body-tertiary {
   background-color: #333;
   overflow: hidden;
 }
