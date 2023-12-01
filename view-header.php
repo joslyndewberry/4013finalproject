@@ -67,5 +67,4 @@
       </ul>
     </nav>
     <section></section>
-  </body>
-</html>
+
