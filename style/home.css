@@ -11,3 +11,14 @@ h1 {
   font-family: 'SpaceType', sans-serif;
   color: white;
 }
+
+button {
+  background-color: #0068B1; 
+  font-family: 'SpaceType', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  padding: 20px; 
+  width: 200px;
+  border-radius: 10px;
+}
+
