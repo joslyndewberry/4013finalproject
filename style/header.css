@@ -9,7 +9,6 @@
   margin: 0px;
   overflow: hidden;
   width: 100%;
-
   list-style: none;
 }
 
@@ -25,6 +24,11 @@
   font-family: arial;
   color: white;
   text-align: center;
+}
+
+.navbar a:hover{
+  background-color: hsl(0, 0%, 10%);
+  text-transform: uppercase;
 }
 
 .logo img{
