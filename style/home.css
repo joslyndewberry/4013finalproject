@@ -15,10 +15,16 @@ h1 {
 button {
   background-color: #0068B1; 
   font-family: 'SpaceType', sans-serif;
-  text-transform: uppercase;
   color: white;
   padding: 20px; 
   width: 200px;
   border-radius: 10px;
+  left: 0;
+  line-height: 200px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
 }
 
