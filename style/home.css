@@ -23,7 +23,7 @@ h1 {
   color: white;
 }
 
-.trainer {
+button {
   background-color: #0068B1; 
   font-family: 'SpaceType', sans-serif;
   color: white;
@@ -31,8 +31,17 @@ h1 {
   width: 200px;
   border-radius: 10px;
   text-align: center;
+}
+
+.trainer {
   position:absolute; 
   left:100px; 
-  top:300px;
+  top:350px;
+}
+
+.pokemon {
+  position:absolute; 
+  left:300px; 
+  top:350px;
 }
 
