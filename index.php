@@ -6,10 +6,10 @@ include "view-header.php";
     <h1>Explore...</h1>
 
     <a href="trainers.php">
-        <button>Trainers</button>
+        <button name= "trainer">Trainers</button>
     </a>
     <a href="Pokemon.php">
-        <button>Pokemon</button>
+        <button name= "pokemon">Pokemon</button>
     </a>
 
 <?php
