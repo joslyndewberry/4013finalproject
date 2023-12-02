@@ -8,6 +8,7 @@
     <link href="https://fonts.cdnfonts.com/css/spacetype" rel="stylesheet">
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/trainer.css">
   </head>
 
   <body>
