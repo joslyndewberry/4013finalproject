@@ -1,10 +1,10 @@
 <?php
 $pageTitle = "Home";
 include "view-header.php";
-include "style/header.css";
+include "style/home.css";
 ?>
       
-    <h1>Final Project</h1>
+    <h1>Explore...</h1>
 
 <?php
 include "view-footer.php"
