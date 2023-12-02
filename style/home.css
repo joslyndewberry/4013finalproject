@@ -32,6 +32,11 @@ button {
   text-align: center;
 }
 
+button:hover{
+  background-color: hsl(212, 36%, 35%);
+  transform: scale(0.5);
+}
+
 .trainer {
   position:absolute; 
   left:75px; 
