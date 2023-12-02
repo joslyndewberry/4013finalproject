@@ -1,7 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/spacetype'); 
 
 .box{
-  background-color: black;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -41,7 +40,7 @@ button {
 
 .pokemon {
   position:absolute; 
-  left:325px; 
+  left:350px; 
   top:325px;
 }
 
