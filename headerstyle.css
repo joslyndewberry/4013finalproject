@@ -26,3 +26,9 @@
   line-height: 70px;
   margin: 0 5px;
 }
+
+.logo img{
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 10px;
+}
