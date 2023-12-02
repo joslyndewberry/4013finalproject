@@ -1,5 +1,8 @@
 body {
   background-image: url(https://c4.wallpaperflare.com/wallpaper/927/247/737/pokemon-nature-pikachu-charmander-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .navbar {
