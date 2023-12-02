@@ -23,3 +23,9 @@
   color: white;
   text-align: center;
 }
+
+.logo img{
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 10px;
+}
