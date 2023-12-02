@@ -9,7 +9,7 @@
   </head>
 
   <body>
-        <div class="logo"><a href="#"><img src="https://25.media.tumblr.com/8e4aafd22dfc23592ea2bf16f4f7be87/tumblr_mze2tugzvO1qh44dro1_500.gif"></a>
+        <div class="logo"><a href="#"><img src="https://pixelartmaker.com/art/d98dde45d242734.png"></a>
         </div>
         <nav class="navbar">
               <ul>
