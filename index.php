@@ -6,7 +6,7 @@ include "view-header.php";
     <div class="box">
     <h1>Explore...</h1>
 
-    <a href="trainers.php">
+    <a href="trainer.php">
         <button class= "trainer">Trainers</button>
     </a>
     <a href="Pokemon.php">
