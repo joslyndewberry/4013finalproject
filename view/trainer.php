@@ -1,6 +1,6 @@
 <div class="table-box">
 <div class="table-responsive">
-  <table class="table">
+  <table class="table" style="background-color:#87A1BA">
     <thead>
       <tr>
       <th>Trainer ID</th>
