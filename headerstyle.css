@@ -16,6 +16,7 @@
 
 .logo img{
   position: absolute;
+  width: 70px;
   margin-top: 15px;
   margin-left: 10px;
 }
