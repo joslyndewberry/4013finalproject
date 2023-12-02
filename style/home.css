@@ -35,13 +35,13 @@ button {
 
 .trainer {
   position:absolute; 
-  left:100px; 
-  top:350px;
+  left:75px; 
+  top:325px;
 }
 
 .pokemon {
   position:absolute; 
-  left:300px; 
-  top:350px;
+  left:325px; 
+  top:325px;
 }
 
