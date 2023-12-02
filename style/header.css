@@ -6,7 +6,10 @@
 
 .navbar ul {
   padding: 0px;
-  margin: 0 0 0 150px;
+  margin: 0px;
+  overflow: hidden;
+  width: 100%;
+
   list-style: none;
 }
 
