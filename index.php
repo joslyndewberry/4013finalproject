@@ -3,6 +3,7 @@ $pageTitle = "Home";
 include "view-header.php";
 ?>
 
+    <div class="box">
     <h1>Explore...</h1>
 
     <a href="trainers.php">
@@ -11,6 +12,7 @@ include "view-header.php";
     <a href="Pokemon.php">
         <button class= "pokemon">Pokemon</button>
     </a>
+    </div>
 
 <?php
 include "view-footer.php"
