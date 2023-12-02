@@ -1,4 +1,3 @@
-<div class="table-box">
 <div class="table-responsive">
   <table class="table" style="background-color:#87A1BA">
     <thead>
@@ -22,5 +21,4 @@ while ($trainer = $trainers->fetch_assoc()) {
       ?>
     </tbody>
   </table>
-</div>
 </div>
