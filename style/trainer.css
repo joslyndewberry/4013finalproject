@@ -1,4 +1,5 @@
 .container {
+  display: grid;
   grid-gap: 20px;
   grid-auto-flow: column;
 }
