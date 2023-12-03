@@ -1,4 +1,5 @@
 
+<div class="container">
 <?php
 while ($trainer = $trainers->fetch_assoc()) {
 ?>
@@ -14,3 +15,4 @@ while ($trainer = $trainers->fetch_assoc()) {
 <?php 
 }
       ?>
+</div>
