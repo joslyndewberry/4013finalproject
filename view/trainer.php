@@ -4,7 +4,7 @@ while ($trainer = $trainers->fetch_assoc()) {
 ?>
   <div class="card">
     <img src="img.jpg" alt="John" style="width:100%">
-    <h1><?php echo $trainer['trainer_name']; ?></h1>
+    <p><?php echo $trainer['trainer_name']; ?><p>
     <p class="title">CEO & Founder, Example</p>
     <p>Trainer ID: <?php echo $trainer['trainer_id']; ?></p>
     <p>Trainer ID: <?php echo $trainer['hometown']; ?></p>
