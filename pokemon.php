@@ -4,7 +4,7 @@ require_once("model/pokemon.php");
 
 $pageTitle = "Pokemon";
 include "view-header.php";
-$pokemon = selectPokemon();
+$pokemons = selectPokemon();
 include "view/pokemon.php";
 include "view-footer.php"
 ?>
