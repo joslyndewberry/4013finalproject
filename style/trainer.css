@@ -45,7 +45,6 @@
   color: white;
   width: 200px;
   padding: 20px; 
-  float: right;
   border-radius: 25px;
 }
 
@@ -71,6 +70,6 @@ a {
 
 .trainer_image {
   height: 250px;
-  width: 100px;
+  width: 80px;
   border-radius: 25px;
 }
