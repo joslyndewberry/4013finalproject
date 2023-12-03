@@ -4,7 +4,7 @@
 
 <div class="container">
 <?php
-while ($pokemon = $pokemon->fetch_assoc()) {
+while ($pokemon = $pokemons->fetch_assoc()) {
 ?>
   <div class="card">
     <div class= "row">
