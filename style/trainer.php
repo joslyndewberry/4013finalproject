@@ -10,7 +10,7 @@
   font-size: 18px;
 }
 
-button {
+.edit {
   border: none;
   outline: 0;
   display: inline-block;
