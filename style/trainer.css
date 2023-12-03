@@ -24,6 +24,11 @@
   font-size: 18px;
 }
 
+p {
+  font-family: 'SpaceType', sans-serif;
+  color: black;
+}
+
 a {
   text-decoration: none;
   font-size: 22px;
