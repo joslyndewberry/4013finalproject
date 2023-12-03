@@ -1,13 +1,13 @@
 .container {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: white;
-  max-width: 425px;
+  max-width: 450px;
   margin: auto;
   text-align: center;
   display: grid;
