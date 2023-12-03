@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 15px;
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -13,7 +13,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 25px;
   background-color: white;
-  max-width: 400px;
+  max-width: 420px;
   margin: auto;
   text-align: center;
   display: grid;
