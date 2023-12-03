@@ -1,3 +1,6 @@
+<div class="modify">
+  <button type="button">Add a Trainer</button>
+</div>
 
 <div class="container">
 <?php
