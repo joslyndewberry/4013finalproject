@@ -4,7 +4,7 @@ include "view-header.php";
 ?>
 
     <div class="box">
-    <h1>Explore...</h1>
+    <h1 class="titlepage">Explore...</h1>
 
     <a href="trainer.php">
         <button class= "trainer">Trainers</button>
