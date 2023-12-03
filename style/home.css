@@ -28,7 +28,12 @@ button {
   text-align: center;
 }
 
-button:hover{
+.trainer:hover{
+  background-color: hsl(212, 36%, 35%);
+  transform: scale(1.2);
+}
+
+.pokemon:hover{
   background-color: hsl(212, 36%, 35%);
   transform: scale(1.2);
 }
