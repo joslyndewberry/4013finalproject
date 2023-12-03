@@ -1,5 +1,5 @@
 <div class="modify">
-  <button class="edit" type="button">Add a Trainer</button>
+  <button class="addtrainer" type="button">Add a Trainer</button>
 </div>
 
 <div class="container">
