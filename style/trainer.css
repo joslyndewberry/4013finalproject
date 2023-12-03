@@ -54,7 +54,11 @@ a {
   color: black;
 }
 
-button:hover, a:hover {
+.edit:hover, a:hover {
+  opacity: 0.7;
+}
+
+.addtrainer:hover, a:hover {
   opacity: 0.7;
 }
 
