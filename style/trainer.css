@@ -78,6 +78,10 @@ a {
   transform: scale(1.1);
 }
 
+.pokemontrainer:hover {
+  transform: scale(1.1);
+}
+
 .addtrainer:hover, a:hover {
   transform: scale(1.1);
 }
