@@ -15,5 +15,5 @@ include "view-header.php";
     </div>
 
 <?php
-include "view/footer.php"
+include "view-footer.php"
 ?>
