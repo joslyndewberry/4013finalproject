@@ -55,7 +55,6 @@
             <label for="t_url" class="form-label">Profile Pic:</label>
             <input type="text" class="form-control" id="spd" name="spd">
           </div>
-          </div>
              <div class="total">
             <label for="t_url" class="form-label">Profile Pic:</label>
             <input type="text" class="form-control" id="total" name="total">
