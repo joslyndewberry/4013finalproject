@@ -7,7 +7,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <p class="modal-title fs-5" id="newTrainerModalLabel">New Trainer</p>
+        <p class="modal-title" id="newTrainerModalLabel">New Trainer</p>
       </div>
       <div class="modal-body">
         <form method="post" action="">
