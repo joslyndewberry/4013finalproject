@@ -5,7 +5,7 @@ require_once("model/types.php");
 
 $pageTitle = "Types";
 include "view-header.php";
-$type = selectTypes();
+$types = selectTypes();
 include "view/types.php";
 include "view-footer.php"
 ?>
