@@ -8,7 +8,6 @@
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="newTrainerModalLabel">New Trainer</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">Close</button>
       </div>
       <div class="modal-body">
         <form method="post" action="">
@@ -25,7 +24,7 @@
             <input type="text" class="form-control" id="t_url" name="t_url">
           </div>
            <input type="hidden" name="actionType" value="Add">
-          <button type="submit" class="btn btn-primary">Save</button>
+          <button type="submit" class="btn btn-primary">Save</button> <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">Close</button>
         </form>
       </div>
     </div>
