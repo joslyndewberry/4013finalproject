@@ -51,6 +51,8 @@
   color: white;
   width: 60px;
   padding: 10px; 
+  margin-top: 15px;
+  margin-right: 10px;
 }
 
 .btn-save:hover {
@@ -64,6 +66,7 @@
   color: white;
   width: 60px;
   padding: 10px; 
+  margin-top: 15px;
 }
 
 .btn-close:hover {
