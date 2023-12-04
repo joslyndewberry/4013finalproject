@@ -1,5 +1,5 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<div class="container">
+<div class="pcontainer">
 <div id="chartContainer">
   <canvas id="myChart"></canvas>
 </div>
