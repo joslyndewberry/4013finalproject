@@ -12,15 +12,15 @@
       <div class="modal-body">
         <form method="post" action="">
           <div class="mb-3">
-            <label for="alName" class="form-label">Trainer Name</label>
+            <label for="t_name" class="form-label">Trainer Name:</label>
             <input type="text" class="form-control" id="t_name" name="t_name">
           </div>
           <div class="mb-3">
-            <label for="tracks" class="form-label">Hometown</label>
+            <label for="home" class="form-label">Hometown:</label>
             <input type="text" class="form-control" id="home" name="home">
           </div>
            <div class="mb-3">
-            <label for="tracks" class="form-label">Profile Pic</label>
+            <label for="t_url" class="form-label">Profile Pic:</label>
             <input type="text" class="form-control" id="t_url" name="t_url">
           </div>
            <input type="hidden" name="actionType" value="Add">
