@@ -53,16 +53,6 @@
   font-size: 18px;
 }
 
-.addtrainer {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  color: white;
-  width: 200px;
-  padding: 20px; 
-  border-radius: 25px;
-}
-
 p {
   font-family: 'SpaceType', sans-serif;
   color: black;
@@ -80,10 +70,6 @@ a {
 }
 
 .trainerpokemon:hover {
-  transform: scale(1.1);
-}
-
-.addtrainer:hover, a:hover {
   transform: scale(1.1);
 }
 
