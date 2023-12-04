@@ -14,7 +14,11 @@ while ($pokemon = $pokemons->fetch_assoc()) {
     <a href="#"><i class="fa fa-dribbble"></i></a>
     <p><button class="edit">Stats</button></p>
     <p><button class="edit">Edit</button></p>
-    <p><button class="edit">Delete</button></p>
+      <p> <form method="post" action=""><input type="hidden" name="t_id" value="<?php echo $pokemon['pokemon_id']; ?>">
+        <input type="hidden" name="actionType" value="Delete">
+        <button type="submit" class="edit" onclick="return confirm('Are you sure?');">Delete</button>
+        </form>
+      </p>
     </div>
 </div>
 <?php 
