@@ -8,7 +8,7 @@ include "view-header.php";
 if (isset($_POST['actionType'])) {
   switch($_POST['actionType']) {
     case "Add":
-      if (insertPokemon($_POST['t_id'], $_POST['p_id'], $_POST['poke'], $_POST['t_url'])) {
+      if (insertPokemon($_POST['t_id'], $_POST['p_id'], $_POST['poke'])) {
         echo '<div class="alert alert-secondary" role="alert">Pokeman Catched.</div>';
       } else {
         '<div class="alert alert-danger" role="alert">Error</div>"';
