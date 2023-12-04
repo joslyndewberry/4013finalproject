@@ -19,9 +19,6 @@
  <script>
   const ctx = document.getElementById('myChart');
 
- <script>
-    const ctx = document.getElementById('myChart');
-
     new Chart(ctx, {
       type: 'radar',
       data: {
