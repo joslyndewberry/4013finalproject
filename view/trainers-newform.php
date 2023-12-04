@@ -3,7 +3,7 @@
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="newTrainerModal" tabindex="-1" aria-labelledby="neTrainerModalLabel" aria-hidden="true">
+<div class="modal fade" id="newTrainerModal" tabindex="-1" aria-labelledby="newTrainerModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
