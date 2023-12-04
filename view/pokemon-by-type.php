@@ -21,8 +21,9 @@ while ($pokemon = $pokemons->fetch_assoc()) {
     <p>Pokemon ID: <?php echo $pokemon['pokemon_id']; ?></p>
     <p>Evolution: <?php echo $pokemon['evolution']; ?></p>
     <p>Type: <?php echo $pokemon['type_name']; ?></p>
-    <a href="#"><i class="fa fa-dribbble"></i></a>
-    <p><button class="edit">Stats</button></p>
+      <p><a target="_blank" href="pokemon-chart.php?id=<?php echo $pokemon['pokemon_id']; ?>">
+        <button class="edit">Stats</button>
+    </a></p>
     </div>
 </div>
 <?php 
