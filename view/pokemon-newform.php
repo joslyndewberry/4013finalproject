@@ -3,7 +3,7 @@
 </button>
 
 <!-- Modal -->
-<div class="modal" id="newTrainerModal" tabindex="-1" aria-labelledby="newPokemonModalLabel" aria-hidden="true">
+<div class="modal" id="newPokemonModal" tabindex="-1" aria-labelledby="newPokemonModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
