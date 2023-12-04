@@ -39,6 +39,10 @@
   font-size: 40px;
 }
 
+.mb-3 {
+  padding: 15px;
+}
+
 /* The Close Button */
 .close {
   color: #aaa;
