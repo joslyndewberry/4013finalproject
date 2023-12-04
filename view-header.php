@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/home.css">
     <link rel="stylesheet" href="style/trainer.css">
+    <link rel="stylesheet" href="style/types.css">
   </head>
 
   <body>
