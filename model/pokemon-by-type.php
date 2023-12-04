@@ -2,7 +2,7 @@
 function selectPokemonByType($tid) {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("SELECT pokemon_id, pokemon_name, evolution, image_url, p.type_id, type_name FROM `pokemon` p JOIN pokemontype pt WHERE p.type_id = pt.type_id where pt.type_id=?");
+        $stmt = $conn->prepare("SELECT * FROM `pokemontype` pt JOIN pokemon p ON pt.type_id=p.type_id WHERE p.type_id=?");
         $stmt->bind_param("i", $tid);
         $stmt->execute();
         $result = $stmt->get_result();
