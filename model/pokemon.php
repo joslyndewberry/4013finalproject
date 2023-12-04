@@ -13,11 +13,11 @@ function selectPokemon() {
     }
 }
 
-function insertPokemon($t_id, $home, $t_url) {
+function insertPokemon($t_id, $p_name, $p_url, $evol, $hp, $atk, $def, $sp_atk, $sp_def, $spd, $total) {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("INSERT INTO `trainer` (`trainer_name`, `hometown`, `trainer_url`) VALUES (?, ?, ?)");
-        $stmt->bind_param("sss", $t_name, $home, $t_url);
+        $stmt = $conn->prepare("INSERT INTO `pokemon` (`type_id`, `pokemon_name`, `image_url`, `evolution`, `hp`, `attack`, `defense`, `sp_attack`, `sp_defense`, `speed`, `base_total`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+        $stmt->bind_param("isssiiiiiii", $t_id, $p_name, $p_url, $evol, $hp, $atk, $def, $sp_atk, $sp_def, $spd, $total);
         $success = $stmt->execute();
         $conn->close();
         return $success;
