@@ -1,5 +1,5 @@
 <!-- Button trigger modal -->
-<button type="button" class="addNewPokemonTrainer" data-bs-toggle="modal" data-bs-target="#newPokemonTrainerModal">Catch Pokemon
+<button type="button" class="addNewTrainer" data-bs-toggle="modal" data-bs-target="#newPokemonTrainerModal">Catch Pokemon
 </button>
 
 <!-- Modal -->
