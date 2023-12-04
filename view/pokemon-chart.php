@@ -3,20 +3,6 @@
   <canvas id="myChart"></canvas>
 </div>
 
-  <style>
-    #chartContainer {
-      width: 50%;
-      height: 50%;
-      left: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: white;
-      margin-top: 20px;
-      font-family: 'SpaceType', sans-serif;
-    }
-  </style>
-
   <script>
     const ctx = document.getElementById('myChart');
 
