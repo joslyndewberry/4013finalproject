@@ -4,7 +4,6 @@ require_once("model/trainer.php");
 
 $pageTitle = "Trainers";
 include "view-header.php";
-$trainers = selectTrainers();
 
 if (isset($_POST['actionType'])) {
   switch($_POST['actionType']) {
@@ -32,6 +31,7 @@ if (isset($_POST['actionType'])) {
   }
 }
 
+$trainers = selectTrainers();
 include "view/trainer.php";
 include "view-footer.php"
 ?>
