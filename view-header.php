@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style/home.css">
     <link rel="stylesheet" href="style/trainer.css">
     <link rel="stylesheet" href="style/types.css">
+    <link rel="stylesheet" href="style/modal.css">
   </head>
 
   <body>
