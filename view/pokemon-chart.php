@@ -4,17 +4,12 @@
 </div>
 
   <style>
-    body {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
-    }
-
     #chartContainer {
       width: 50%;
       height: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       background-color: white;
       margin-top: 20px;
     }
