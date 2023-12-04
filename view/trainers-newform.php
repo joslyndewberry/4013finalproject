@@ -2,8 +2,6 @@
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newTrainerModal">Add New Trainer
 </button>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-
 <!-- Modal -->
 <div class="modal fade" id="newTrainerModal" tabindex="-1" aria-labelledby="neTrainerModalLabel" aria-hidden="true">
   <div class="modal-dialog">
