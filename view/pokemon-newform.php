@@ -7,7 +7,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <p class="modal-title" id="newTrainerModalLabel">New Pokemon</p>
+        <p class="modal-title" id="newPokemonModalLabel">New Pokemon</p>
       </div>
       <div class="modal-body">
         <form method="post" action="">
