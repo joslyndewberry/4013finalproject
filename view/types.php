@@ -2,7 +2,9 @@
 <?php
 while ($type = $types->fetch_assoc()) {
 ?>
-    <p><button type="button"><?php echo $type['type_name']; ?></button></p>
+    <a href="pokemon.php">
+        <button class= "typesbutton"><button type="button"><?php echo $type['type_name']; ?></button>
+    </a>
 <?php 
 }
       ?>
