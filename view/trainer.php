@@ -15,7 +15,9 @@ while ($trainer = $trainers->fetch_assoc()) {
     <p>Trainer ID: <?php echo $trainer['trainer_id']; ?></p>
     <p>Hometown: <?php echo $trainer['hometown']; ?></p>
     <a href="#"><i class="fa fa-dribbble"></i></a>
-    <p><button target="_self" class="trainerpokemon" href="pokemon-by-trainer.php?id=<?php echo $trainer['trainer_id']; ?>">Pokemon</button></p>
+      <p><a href="pokemon-by-trainer.php?id=<?php echo $trainer['trainer_id']; ?>">
+        <button>Pokemon</button>
+    </a></p>
     <p><button class="edit">Edit</button></p>
     </div>
 </div>
