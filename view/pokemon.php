@@ -1,6 +1,3 @@
-<div class="modify">
-  <button class="addtrainer" type="button">Add a Pokemon</button>
-</div>
 
 <div class="container">
 <?php
