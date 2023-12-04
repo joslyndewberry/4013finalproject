@@ -7,6 +7,7 @@
     #chartContainer {
       width: 50%;
       height: 50%;
+      left: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
