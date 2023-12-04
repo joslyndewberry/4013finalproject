@@ -18,7 +18,6 @@ while ($pokemon = $pokemons->fetch_assoc()) {
      <p><a target="_blank" href="pokemon-chart.php?id=<?php echo $pokemon['pokemon_id']; ?>">
         <button class="edit">Stats</button>
     </a></p>
-    <p><button class="edit">Edit</button></p>
      <p> <form method="post" action=""><input type="hidden" name="p_id" value="<?php echo $pokemon['pokemon_id']; ?>">
         <input type="hidden" name="actionType" value="Delete">
         <button type="submit" class="edit" onclick="return confirm('Remove Pokemon from System?');">Delete</button>
