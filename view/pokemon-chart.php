@@ -16,8 +16,8 @@
     }
   </style>
 
- <script>
-  const ctx = document.getElementById('myChart');
+  <script>
+    const ctx = document.getElementById('myChart');
 
     new Chart(ctx, {
       type: 'radar',
@@ -42,7 +42,12 @@
               display: false
             },
             suggestedMin: 10,
-            suggestedMax: 150
+            suggestedMax: 150,
+            pointLabels: {
+              font: {
+                family: 'SpaceType, sans-serif'
+              }
+            }
           }
         },
         plugins: {
@@ -52,9 +57,13 @@
                 family: 'SpaceType, sans-serif'
               }
             }
+          },
+          tooltip: {
+            bodyFont: {
+              family: 'SpaceType, sans-serif'
+            }
           }
         }
       }
     });
   </script>
-
