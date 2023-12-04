@@ -29,6 +29,7 @@ if (isset($_POST['actionType'])) {
       break;
       case "Delete":
       if (deleteTrainers($_POST['t_id'])) {
+        echo '<div class="alert success">
           <span class="closebtn" onclick="this.parentElement.style.display=\'none\';">&times;</span>
             Trainer Removed.
         </div>';
