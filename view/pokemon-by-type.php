@@ -1,3 +1,13 @@
+<div class="buttonorder">
+<?php
+while ($type = $types->fetch_assoc()) {
+?>
+    <a target="_blank" class="typesbutton" href="pokemon-by-type.php?id=<?php echo $type['type_id']; ?>"><?php echo $type['type_name']; ?></a>
+<?php 
+}
+      ?>
+</div>
+
 <div class="container">
 <?php
 while ($pokemon = $pokemons->fetch_assoc()) {
