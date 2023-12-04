@@ -9,8 +9,8 @@ if (isset($_POST['actionType'])) {
   switch($_POST['actionType']) {
     case "Add":
       if (insertPokemon($_POST['t_id'], $_POST['p_id'], $_POST['poke'])) {
-         echo '<div class="alert">
-            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+       echo '<div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display=\'none\';">&times;</span>
                 Pokemon Caught
             </div>';
       } else {
