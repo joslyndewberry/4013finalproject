@@ -9,7 +9,7 @@ include "view-header.php";
     <a href="trainer.php">
         <button class= "trainer">Trainers</button>
     </a>
-    <a href="Pokemon.php">
+    <a href="pokemon.php">
         <button class= "pokemon">Pokemon</button>
     </a>
     </div>
