@@ -2,9 +2,7 @@
 <?php
 while ($type = $types->fetch_assoc()) {
 ?>
-    <form class="pokemonbutton" action="pokemon.php">
-        <input type="submit" value=<?php echo $type['type_name']; ?> />
-    </form>
+    <a target="_blank" class="typesbutton" href="pokemon.php"><?php echo $type['type_name']; ?></a>
 <?php 
 }
       ?>
