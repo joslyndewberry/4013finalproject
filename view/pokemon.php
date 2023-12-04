@@ -14,10 +14,11 @@ while ($pokemon = $pokemons->fetch_assoc()) {
     <p><?php echo $pokemon['pokemon_name']; ?><p>
     <p>Pokemon ID: <?php echo $pokemon['pokemon_id']; ?></p>
     <p>Evolution: <?php echo $pokemon['evolution']; ?></p>
-    <p>Base Total: <?php echo $pokemon['base_total']; ?></p>
     <p>Type: <?php echo $pokemon['type_name']; ?></p>
     <a href="#"><i class="fa fa-dribbble"></i></a>
+    <p><button class="edit">Stats</button></p>
     <p><button class="edit">Edit</button></p>
+    <p><button class="edit">Delete</button></p>
     </div>
 </div>
 <?php 
