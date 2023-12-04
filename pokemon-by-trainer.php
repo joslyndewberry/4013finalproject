@@ -24,7 +24,7 @@ case "Add":
       if (deletePokemonFromTrainer($_POST['c_id'])) {
           echo '<div class="alert secondary">
               <span class="closebtn" onclick="this.parentElement.style.display=\'none\';">&times;</span>
-                  Pokemon Released from Trainer.
+                  Pokemon Released.
               </div>';
           } else {
               echo '<div class="alert danger">
