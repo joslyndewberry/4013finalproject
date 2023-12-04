@@ -31,9 +31,6 @@
                     <li>
                           <a href="types.php">Types</a>
                     </li>
-                    <li>
-                          <a href="stats.php">Stats</a>
-                    </li>
               </ul>      
         </nav>
 
