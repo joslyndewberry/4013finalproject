@@ -24,7 +24,7 @@
             <input type="text" class="form-control" id="t_url" name="t_url">
           </div>
            <input type="hidden" name="actionType" value="Add">
-          <button type="submit" class="btn-primary">Save</button> <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">Close</button>
+          <button type="submit" class="btn-save">Save</button> <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">Close</button>
         </form>
       </div>
     </div>
