@@ -9,3 +9,84 @@
       margin-top: 20px;
       border-radius: 25px;
     }
+
+.container {
+  margin-top: 25px;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.modify {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  background-color: white;
+  max-width: 420px;
+  margin: auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.trainerpokemon {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.edit {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+p {
+  font-family: 'SpaceType', sans-serif;
+  color: black;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.edit:hover, a:hover {
+  transform: scale(1.1);
+}
+
+.trainerpokemon:hover {
+  transform: scale(1.1);
+}
+
+.trainer_image {
+  height: 250px;
+  width: 80px;
+  border-radius: 25px;
+}
