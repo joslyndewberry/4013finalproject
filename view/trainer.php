@@ -20,7 +20,7 @@ while ($trainer = $trainers->fetch_assoc()) {
     <p>
         <p><input type="hidden" name="trainer_id" value="<?php echo $trainer['trainer_id']; ?>">
         <input type="hidden" name="actionType" value="Delete">
-        <button type="submit" class="edit" onclick="return confirm('Are you sure?');"></button>
+        <button type="submit" class="edit" onclick="return confirm('Are you sure?');">Edit</button>
       </p>
     <p><button class="edit">Delete</button></p>
     </div>
