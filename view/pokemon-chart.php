@@ -1,4 +1,5 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<div class="container">
 <div id="chartContainer">
   <canvas id="myChart"></canvas>
 </div>
@@ -55,7 +56,6 @@
     });
   </script>
 
-<div class="container">
 <?php
 $pokemons = selectPokemon($_GET['id']);
 while ($pokemon = $pokemons->fetch_assoc()) {
