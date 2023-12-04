@@ -18,10 +18,10 @@ while ($trainer = $trainers->fetch_assoc()) {
         <button class="trainerpokemon">Pokemon</button>
     </a></p>
        <p><button class="edit">Edit</button></p>
-    <p>
-        <p><input type="hidden" name="t_id" value="<?php echo $trainer['trainer_id']; ?>">
+        <p> <form method="post" action=""><input type="hidden" name="t_id" value="<?php echo $trainer['trainer_id']; ?>">
         <input type="hidden" name="actionType" value="Delete">
         <button type="submit" class="edit" onclick="return confirm('Are you sure?');">Delete</button>
+        </form>
       </p>
     </div>
 </div>
