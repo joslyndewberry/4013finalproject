@@ -1,3 +1,9 @@
+<div class="modify">
+  <?php
+    Include "view/pokemon-newform.php";
+    ?>
+</div>
+
 
 <div class="container">
 <?php
