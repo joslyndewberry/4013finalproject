@@ -49,8 +49,8 @@
   outline: 0;
   display: inline-block;
   color: white;
-  width: 50px;
-  padding: 5px; 
+  width: 60px;
+  padding: 10px; 
 }
 
 .btn-save:hover {
@@ -62,8 +62,8 @@
   outline: 0;
   display: inline-block;
   color: white;
-  width: 50px;
-  padding: 5px; 
+  width: 60px;
+  padding: 10px; 
 }
 
 .btn-close:hover {
