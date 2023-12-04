@@ -28,31 +28,31 @@
             <input type="text" class="form-control" id="evol" name="evol">
           </div>
              <div class="mb-3">
-            <label for="hp" class="form-label">Profile Pic:</label>
+            <label for="hp" class="form-label">HP:</label>
             <input type="text" class="form-control" id="hp" name="hp">
           </div>
              <div class="mb-3">
-            <label for="atk" class="form-label">Profile Pic:</label>
+            <label for="atk" class="form-label">Attack:</label>
             <input type="text" class="form-control" id="atk" name="atk">
           </div>
              <div class="mb-3">
-            <label for="def" class="form-label">Profile Pic:</label>
+            <label for="def" class="form-label">Defense:</label>
             <input type="text" class="form-control" id="def" name="def">
           </div>
              <div class="mb-3">
-            <label for="sp_atk" class="form-label">Profile Pic:</label>
+            <label for="sp_atk" class="form-label">Special Attack:</label>
             <input type="text" class="form-control" id="sp_atk" name="sp_atk">
           </div>
              <div class="mb-3">
-            <label for="sp_def" class="form-label">Profile Pic:</label>
+            <label for="sp_def" class="form-label">Special Defense:</label>
             <input type="text" class="form-control" id="sp_def" name="sp_def">
           </div>
              <div class="spd">
-            <label for="t_url" class="form-label">Profile Pic:</label>
+            <label for="t_url" class="form-label">Spped:</label>
             <input type="text" class="form-control" id="spd" name="spd">
           </div>
              <div class="total">
-            <label for="t_url" class="form-label">Profile Pic:</label>
+            <label for="t_url" class="form-label">Base Total:</label>
             <input type="text" class="form-control" id="total" name="total">
           </div>
            <input type="hidden" name="actionType" value="Add">
