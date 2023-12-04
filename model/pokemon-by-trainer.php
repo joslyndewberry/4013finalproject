@@ -14,6 +14,20 @@ function selectPokemonByTrainer($trid) {
     }
 }
 
+function insertPokemon($t_id, $p_id, $poke) {
+    try {
+        $conn = get_db_connection();
+        $stmt = $conn->prepare("INSERT INTO `capture` (`trainer_id`, `pokemon_id`, `pokeball`) VALUES (?, ?, ?)");
+        $stmt->bind_param("sss", $t_id, $p_id, $poke);
+        $success = $stmt->execute();
+        $conn->close();
+        return $success;
+    } catch (Exception $e) {
+        $conn->close();
+        throw $e;
+    }
+}
+
 function deletePokemonFromTrainer($c_id) {
     try {
         $conn = get_db_connection();
