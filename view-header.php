@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="style/trainer.css">
     <link rel="stylesheet" href="style/types.css">
     <link rel="stylesheet" href="style/modal.css">
+    <link rel="stylesheet" href="style/pokemon-chart.css">
   </head>
 
   <body>
