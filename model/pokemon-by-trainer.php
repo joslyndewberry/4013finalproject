@@ -14,4 +14,18 @@ function selectPokemonByTrainer($trid) {
     }
 }
 
+function deletePokemonFromTrainer($c_id) {
+    try {
+        $conn = get_db_connection();
+        $stmt = $conn->prepare("delete from capture where capture_id = ?");
+        $stmt->bind_param("i", $c_id);
+        $success = $stmt->execute();
+        $conn->close();
+        return $success;
+    } catch (Exception $e) {
+        $conn->close();
+        throw $e;
+    }
+}
+
 ?>
