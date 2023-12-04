@@ -1,1 +1,5 @@
-
+button {
+  background-color: hsl(209, 27%, 63%);
+  font-family: 'SpaceType', sans-serif;
+  text-align: center;
+}
