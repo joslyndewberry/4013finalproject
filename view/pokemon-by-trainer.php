@@ -13,7 +13,6 @@ while ($pokemon = $pokemons->fetch_assoc()) {
     <p>Type: <?php echo $pokemon['type_name']; ?></p>
     <a href="#"><i class="fa fa-dribbble"></i></a>
     <p><button class="edit">Stats</button></p>
-    <p><button class="edit">Edit</button></p>
       <p> <form method="post" action=""><input type="hidden" name="p_id" value="<?php echo $pokemon['pokemon_id']; ?>">
         <input type="hidden" name="actionType" value="Delete">
         <button type="submit" class="edit" onclick="return confirm('Are you sure?');">Delete</button>
