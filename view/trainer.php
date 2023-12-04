@@ -1,5 +1,8 @@
 <div class="modify">
   <button class="addtrainer" type="button">Add a Trainer</button>
+  <?php
+    Include "view/trainers-newform.php";
+    ?>
 </div>
 
 <div class="container">
