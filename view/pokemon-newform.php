@@ -12,12 +12,12 @@
       <div class="modal-body">
         <form method="post" action="">
           <div class="mb-3">
-            <label for="p_name" class="form-label">Pokemon Name:</label>
-            <input type="text" class="form-control" id="p_name" name="p_name">
-          </div>
-          <div class="mb-3">
             <label for="t_id" class="form-label">Type ID:</label>
             <input type="text" class="form-control" id="t_id" name="t_id">
+          </div>
+          <div class="mb-3">
+            <label for="p_name" class="form-label">Pokemon Name:</label>
+            <input type="text" class="form-control" id="p_name" name="p_name">
           </div>
            <div class="mb-3">
             <label for="p_name" class="form-label">Pokemon Name:</label>
