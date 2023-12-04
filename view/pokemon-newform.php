@@ -48,7 +48,7 @@
             <input type="text" class="form-control" id="sp_def" name="sp_def">
           </div>
              <div class="spd">
-            <label for="t_url" class="form-label">Spped:</label>
+            <label for="t_url" class="form-label">Speed:</label>
             <input type="text" class="form-control" id="spd" name="spd">
           </div>
              <div class="total">
