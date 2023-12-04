@@ -1,3 +1,9 @@
+<div class="modify">
+  <?php
+    Include "view/pokemon-by-trainer-newform.php";
+    ?>
+</div>
+
 <div class="container">
 <?php
 while ($pokemon = $pokemons->fetch_assoc()) {
