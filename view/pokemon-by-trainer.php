@@ -11,8 +11,9 @@ while ($pokemon = $pokemons->fetch_assoc()) {
     <p>Pokemon ID: <?php echo $pokemon['pokemon_id']; ?></p>
     <p>Evolution: <?php echo $pokemon['evolution']; ?></p>
     <p>Type: <?php echo $pokemon['type_name']; ?></p>
-    <a href="#"><i class="fa fa-dribbble"></i></a>
-    <p><button class="edit">Stats</button></p>
+      <p><a target="_blank" href="pokemon-chart.php?id=<?php echo $pokemon['pokemon_id']; ?>">
+        <button class="edit">Stats</button>
+    </a></p>
       <p> <form method="post" action=""><input type="hidden" name="c_id" value="<?php echo $pokemon['capture_id']; ?>">
         <input type="hidden" name="actionType" value="Delete">
         <button type="submit" class="edit" onclick="return confirm('Release Pokemon from Trainer?');">Release</button>
