@@ -1,5 +1,5 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<div>
+<div id="chartContainer" style="width: 50%; height: 50%; background-color: white;">
   <canvas id="myChart"></canvas>
 </div>
 
