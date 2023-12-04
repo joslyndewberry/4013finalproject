@@ -8,7 +8,7 @@
   border-radius: 25px;
 }
 
-.addNewTrainer:hover, {
+.addNewTrainer:hover {
   transform: scale(1.1);
 }
 
