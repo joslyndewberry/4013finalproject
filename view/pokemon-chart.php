@@ -69,9 +69,7 @@ while ($pokemon = $pokemons->fetch_assoc()) {
     <p>Pokemon ID: <?php echo $pokemon['pokemon_id']; ?></p>
     <p>Evolution: <?php echo $pokemon['evolution']; ?></p>
     <p>Type: <?php echo $pokemon['type_name']; ?></p>
-      <p><a target="_blank" href="pokemon-chart.php?id=<?php echo $pokemon['pokemon_id']; ?>">
-        <button class="edit">Stats</button>
-    </a></p>
+    <p>Type: <?php echo $pokemon['base_total']; ?></p>
     </div>
 </div>
 <?php 
