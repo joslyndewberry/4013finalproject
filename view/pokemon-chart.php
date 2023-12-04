@@ -57,7 +57,7 @@
 
 <div class="container">
 <?php
-$pokemons = selectPokemon();
+$pokemons = selectPokemon($_GET['id']));
 while ($pokemon = $pokemons->fetch_assoc()) {
 ?>
   <div class="card">
