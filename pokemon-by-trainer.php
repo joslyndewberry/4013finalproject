@@ -11,7 +11,7 @@ case "Add":
     if (insertPokemon($_POST['t_id'], $_POST['p_id'], $_POST['poke'])) {
           echo '<div class="alert success">
               <span class="closebtn" onclick="this.parentElement.style.display=\'none\';">&times;</span>
-                Pokemon Caught
+                Pokemon Caught!
                 </div>';
           } else {
            echo '<div class="alert danger">
