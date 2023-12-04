@@ -3,22 +3,24 @@
   <canvas id="myChart"></canvas>
 </div>
 
-  <script>
+ <script>
   const ctx = document.getElementById('myChart');
 
   new Chart(ctx, {
     type: 'radar',
     data: {
       labels: ['HP', 'Attack', 'Defense', 'SP Attack', 'SP Defense', 'Speed'],
-      datasets: [{
-        data: [
-          <?php
-          while ($pokemon = $pokemons->fetch_assoc()) {
-            echo $pokemon['hp'] . ", " . $pokemon['attack'] . ", " . $pokemon['defense'] . ", " . $pokemon['sp_attack'] . ", " . $pokemon['sp_defense'] . ", " . $pokemon['speed'] . ", ";
-          }
-          ?>
-        ]
-      }]
+      datasets: [
+        <?php
+        $pokemons->data_seek(0); // Reset the pointer to the beginning of the result set
+        while ($pokemon = $pokemons->fetch_assoc()) {
+          echo "{";
+          echo "label: '" . $pokemon['pokemon_name'] . "',";
+          echo "data: [" . $pokemon['hp'] . ", " . $pokemon['attack'] . ", " . $pokemon['defense'] . ", " . $pokemon['sp_attack'] . ", " . $pokemon['sp_defense'] . ", " . $pokemon['speed'] . "],";
+          echo "},";
+        }
+        ?>
+      ]
     },
     options: {
       scales: {
@@ -33,3 +35,4 @@
     }
   });
 </script>
+
