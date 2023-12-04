@@ -1,4 +1,4 @@
-<div class="container">
+<div class="buttonorder">
 <?php
 while ($type = $types->fetch_assoc()) {
 ?>
