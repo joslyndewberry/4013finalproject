@@ -19,10 +19,6 @@
             <label for="p_name" class="form-label">Pokemon Name:</label>
             <input type="text" class="form-control" id="p_name" name="p_name">
           </div>
-           <div class="mb-3">
-            <label for="p_name" class="form-label">Pokemon Name:</label>
-            <input type="text" class="form-control" id="p_name" name="p_name">
-          </div>
              <div class="mb-3">
             <label for="p_url" class="form-label">Pokemon Pic:</label>
             <input type="text" class="form-control" id="p_url" name="p_url">
