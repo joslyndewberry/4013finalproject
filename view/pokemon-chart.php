@@ -1,7 +1,24 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<div id="chartContainer" style="width: 50%; height: 50%; background-color: white;">
+<div id="chartContainer">
   <canvas id="myChart"></canvas>
 </div>
+
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    #chartContainer {
+      width: 50%;
+      height: 50%;
+      background-color: white;
+      margin-top: 20px;
+    }
+  </style>
 
  <script>
   const ctx = document.getElementById('myChart');
