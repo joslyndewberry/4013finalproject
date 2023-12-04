@@ -1,5 +1,6 @@
 <?php
 require_once("util-db.php");
+require_once("model/types.php");
 require_once("model/pokemon-by-type.php");
 
 $pageTitle = "Pokemon Types";
