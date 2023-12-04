@@ -13,4 +13,46 @@ function selectTrainers() {
     }
 }
 
+function insertTrainers($t_name, $home, $t_url) {
+    try {
+        $conn = get_db_connection();
+        $stmt = $conn->prepare("INSERT INTO `trainer` (`trainer_name`) VALUES (?)");
+        $stmt->bind_param("sss", $t_name, $home, $t_url);
+        $success = $stmt->execute();
+        $conn->close();
+        return $success;
+    } catch (Exception $e) {
+        $conn->close();
+        throw $e;
+    }
+}
+
+function updateTrainers($t_name, $home, $t_url, $t_id) {
+    try {
+        $conn = get_db_connection();
+        $stmt = $conn->prepare("update 'trainer' set 'trainer_name'=? where trainer_id = ?");
+        $stmt->bind_param("sssi", $t_name, $home, t_url, $t_id);
+        $success = $stmt->execute();
+        $conn->close();
+        return $success;
+    } catch (Exception $e) {
+        $conn->close();
+        throw $e;
+    }
+}
+
+function deleteTrainers($t_id) {
+    try {
+        $conn = get_db_connection();
+        $stmt = $conn->prepare("delete from trainer where trainer_id = ?");
+        $stmt->bind_param("i", $t_id);
+        $success = $stmt->execute();
+        $conn->close();
+        return $success;
+    } catch (Exception $e) {
+        $conn->close();
+        throw $e;
+    }
+}
+
 ?>
