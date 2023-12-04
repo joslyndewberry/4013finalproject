@@ -13,6 +13,20 @@ function selectPokemon() {
     }
 }
 
+function insertPokemon($t_id, $home, $t_url) {
+    try {
+        $conn = get_db_connection();
+        $stmt = $conn->prepare("INSERT INTO `trainer` (`trainer_name`, `hometown`, `trainer_url`) VALUES (?, ?, ?)");
+        $stmt->bind_param("sss", $t_name, $home, $t_url);
+        $success = $stmt->execute();
+        $conn->close();
+        return $success;
+    } catch (Exception $e) {
+        $conn->close();
+        throw $e;
+    }
+}
+
 function deletePokemon($p_id) {
     try {
         $conn = get_db_connection();
