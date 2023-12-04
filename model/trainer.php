@@ -16,7 +16,7 @@ function selectTrainers() {
 function insertTrainers($t_name, $home, $t_url) {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("INSERT INTO `trainer` (`trainer_name`) VALUES (?)");
+        $stmt = $conn->prepare("INSERT INTO `trainer` (`trainer_name`, `hometown`, `trainer_url`) VALUES (?, ?, ?)");
         $stmt->bind_param("sss", $t_name, $home, $t_url);
         $success = $stmt->execute();
         $conn->close();
@@ -30,7 +30,7 @@ function insertTrainers($t_name, $home, $t_url) {
 function updateTrainers($t_name, $home, $t_url, $t_id) {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("update 'trainer' set 'trainer_name'=? where trainer_id = ?");
+        $stmt = $conn->prepare("UPDATE `trainer` SET 'trainer_name'=?, 'hometown'=?, 'trainer_url'=? WHERE trainer_id = ?");
         $stmt->bind_param("sssi", $t_name, $home, t_url, $t_id);
         $success = $stmt->execute();
         $conn->close();
@@ -40,6 +40,7 @@ function updateTrainers($t_name, $home, $t_url, $t_id) {
         throw $e;
     }
 }
+
 
 function deleteTrainers($t_id) {
     try {
