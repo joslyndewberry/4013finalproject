@@ -5,7 +5,7 @@ require_once("model/pokemon-chart.php");
 $pageTitle = "Pokemon Stats";
 include "view-header.php";
 
-$pokemons = selectPokemon();
+$pokemons = selectPokemon($_GET['id']);
 include "view/pokemon-chart.php";
 include "view-footer.php"
 ?>
