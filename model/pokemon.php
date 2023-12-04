@@ -13,4 +13,18 @@ function selectPokemon() {
     }
 }
 
+function deletePokemon($p_id) {
+    try {
+        $conn = get_db_connection();
+        $stmt = $conn->prepare("delete from pokemon where pokemon_id = ?");
+        $stmt->bind_param("i", $p_id);
+        $success = $stmt->execute();
+        $conn->close();
+        return $success;
+    } catch (Exception $e) {
+        $conn->close();
+        throw $e;
+    }
+}
+
 ?>
