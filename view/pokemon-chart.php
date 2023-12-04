@@ -12,6 +12,7 @@
       justify-content: center;
       background-color: white;
       margin-top: 20px;
+      font-family: 'SpaceType', sans-serif;
     }
   </style>
 
